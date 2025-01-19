@@ -6,9 +6,9 @@ The VT100 class provides funtions to control VT100 Terminal (emulators) such as 
 Due to the many different varaints some adjustments to Putty's terminal settings might be
 necessary. E.g:  
 	- blinking text ist disabled by default
-	- BS is mapped to DEL by default
-	- Auto CR with LF / Auto LF with CR is enabled by default
-	- ...
+	- BS is mapped to DEL by default  
+	- Auto CR with LF / Auto LF with CR is enabled by default  
+	- ...  
   
 The Class works with my SerialClass in order to unify HW Serial and USB Serial usage.  
 
